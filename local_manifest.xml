@@ -20,5 +20,6 @@
 <!-- patch -->
     <remove-project name="external/selinux/libsepol/cil/src/" />
     <project path="external/selinux/libsepol/cil/src" name="patch-selinux" remote="myself" revision="main" />
-    <project path="external/selinux" name="Patch" remote="myself" revision="main />
+    <project path="external/selinux" name="Patch" remote="myself" revision="main" />
+
 </manifest>
