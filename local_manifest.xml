@@ -16,10 +16,4 @@
 
     <!-- Another -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="officialputuid" revision="master" clone-depth="1" />
-
-<!-- patch -->
-    <remove-project path="external/selinux/libsepol/cil/src/" />
-    <project path="external/selinux/libsepol/cil/src" name="patch-selinux" remote="myself" revision="main" />
-    <project path="external/selinux" name="Patch" remote="myself" revision="main" />
-
 </manifest>
