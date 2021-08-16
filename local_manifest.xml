@@ -13,6 +13,7 @@
     <!-- patch -->
     <remove-project name="external/selinux/libsepol/cil/src/" />
     <project path="external/selinux/libsepol/cil/src" name="patch-selinux" remote="myself" revision="main" />
+    <project path="external/selinux" name="Patch" remote="myself" revision="main />
 
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11" />
