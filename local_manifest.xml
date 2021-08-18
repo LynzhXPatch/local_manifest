@@ -11,7 +11,7 @@
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
 
     <!-- Patching -->
-    <remove-project path="external/selinux" />
+    <remove-project name="external/selinux" />
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
     <!-- Apps -->
