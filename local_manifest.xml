@@ -16,7 +16,7 @@
 
     <!-- Recovery -->
     <remove-project name="platform_build" />
-    <project path="build" name="weeb_projekt_build" remote="myself" revision="cheese" />
+    <project path="build/" name="weeb_projekt_build" remote="myself" revision="cheese" />
 
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11" />
