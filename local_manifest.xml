@@ -10,8 +10,13 @@
     <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="officialputuid" revision="11" clone-depth="1" />
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
 
+    <!-- Patching -->
+    <remove-project name="platform/external/selinux" />
+    <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
+
     <!-- Recovery -->
     <remove-project name="platform/build" />
+
     <project path="build/make" name="weeb_projekt_build" remote="myself" revision="cheese" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -20,10 +25,6 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-
-    <!-- Patching -->
-    <remove-project name="platform/external/selinux" />
-    <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
     <!-- Maintainer -->
     <remove-project name="platform/packages/apps/Settings" />
