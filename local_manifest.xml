@@ -12,7 +12,7 @@
 
     <!-- Patching -->
     <remove-project name="platform/external/selinux" />
-    <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="main" clone-depth="1" />
+    <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11" />
