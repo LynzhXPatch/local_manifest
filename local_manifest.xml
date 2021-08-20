@@ -11,7 +11,7 @@
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
 
     <!-- Recovery -->
-    <remove-project name="platform_build" />
+    <remove-project path="build/make/*" />
     <project path="build/make" name="weeb_projekt_build" remote="myself" revision="cheese" />
 
     <!-- Patching -->
