@@ -15,8 +15,7 @@
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
     <!-- Recovery -->
-    <remove-project name="platform/build" />
-
+    <remove-project path="build/make" />
     <project path="build/make" name="weeb_projekt_build" remote="myself" revision="cheese" />
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
