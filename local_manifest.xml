@@ -9,6 +9,7 @@
     <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="myself" revision="WeebPrjkt" />
     <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="officialputuid" revision="11" clone-depth="1" />
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
+    <project path="kernel/realme/RMX2001/arch/configs" name="RMX2001_defconf" remote="myself" revision="main" />
 
     <!-- Patching -->
     <remove-project name="platform/external/selinux" />
