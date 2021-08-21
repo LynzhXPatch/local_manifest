@@ -15,6 +15,7 @@
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
     <!-- Recovery -->
+    <remove-project name="platform_build" />
 <project path="build/make" name="android_build" remote="myself">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
