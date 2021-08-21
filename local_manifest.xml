@@ -26,7 +26,7 @@
     <linkfile src="tools" dest="build/tools" />
 
     <!-- Maintainer -->
-    <remove-project name="platform/packages/apps/Settings" />
+    <remove-project name="platform_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="myself" revision="reborn" />
 
     <!-- Apps -->
