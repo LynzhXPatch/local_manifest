@@ -15,8 +15,15 @@
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
     <!-- Recovery -->
-    <remove-project name="platform_build" />
-    <project path="build/make" name="android_build" remote="myself" revision="lineage-18.1" />
+<project path="build/make" name="android_build" remote="myself">
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
 
     <!-- Maintainer -->
     <remove-project name="platform_packages_apps_Settings" />
