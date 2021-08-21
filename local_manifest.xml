@@ -17,13 +17,6 @@
     <!-- Recovery -->
     <remove-project name="platform_build" />
     <project path="build/make" name="android_build" remote="myself" revision="lineage-18.1" />
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/*" />
-    <linkfile src="buildspec.mk.default" dest="build/*" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/*" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
 
     <!-- Maintainer -->
     <remove-project name="platform_packages_apps_Settings" />
