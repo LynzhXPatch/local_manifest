@@ -3,36 +3,21 @@
     <!-- Github remote -->
     <remote name="myself" fetch="https://github.com/LynzhX" />
     <remote name="officialputuid" fetch="https://github.com/officialputuid" />
+    <remote name="atlas" fetch="https://github.com/Atlas78" />
+    <remote name="samar" fetch="https://github.com/SamarV-121" />
 
     <!-- Sync trees -->
-    <project path="device/realme/mt6785-common" name="android_device_realme_mt6785-common" remote="myself" revision="WeebPrjkt" />
-    <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="myself" revision="WeebPrjkt" />
-    <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="officialputuid" revision="11" clone-depth="1" />
-    <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
-    <project path="kernel/realme/RMX2001/arch/configs" name="RMX2001_defconf" remote="myself" revision="main" />
+    <project path="device/realme/RMX2001" name="device_realme_RMX2001" remote="myself" revision="Weeb" />
+    <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="samar" revision="lineage-18.1" clone-depth="1" />
+    <project path="vendor/realme/RMX2001" name="vendor_realme_RMX2001" remote="atlas" revision="eleven" />
 
     <!-- Patching -->
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
-    <!-- Recovery -->
-    <remove-project name="platform_build" />
-<project path="build/make" name="android_build" remote="myself" revision="lineage-18.1" >
-    <copyfile src="core/root.mk" dest="Makefile" />
-    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
-    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
-    <linkfile src="core" dest="build/core" />
-    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
-    <linkfile src="target" dest="build/target" />
-    <linkfile src="tools" dest="build/tools" />
-  </project>
-
     <!-- Maintainer -->
     <remove-project name="platform_packages_apps_Settings" />
     <project path="packages/apps/Settings" name="platform_packages_apps_Settings" remote="myself" revision="reborn" />
-
-    <!-- Conf -->
-    <project path="device/sample/etc" name="conf" remote="myself" revision="main" />
 
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11" />
