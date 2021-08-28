@@ -15,6 +15,8 @@
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
+
+  <!-- Patch Build -->
   <remove-project name="platform_build" />
   <project name="platform_build" path="build/make" remote="windowzytch" />
     <copyfile src="core/root.mk" dest="Makefile" />
