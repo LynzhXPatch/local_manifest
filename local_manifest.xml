@@ -4,7 +4,7 @@
     <remote name="myself" fetch="https://github.com/LynzhX" />
     <remote name="officialputuid" fetch="https://github.com/officialputuid" />
     <remote name="samar" fetch="https://github.com/SamarV-121" />
-    <remote name="windowzytch" fetch="https://github.com/windowzytch" revision="reborn" />
+    <remote name="windowzytch" fetch="https://github.com/windowzytch" />
 
     <!-- Sync trees -->
     <project path="device/realme/RMX2001" name="device_realme_RMX2001" remote="myself" revision="weeb" />
@@ -18,7 +18,7 @@
 
   <!-- Patch Build -->
   <remove-project name="platform_build" />
-  <project path="build/make" name="windowzytch" >
+  <project path="build/make" name="platform_build" remote="windowzytch" revision="reborn" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
