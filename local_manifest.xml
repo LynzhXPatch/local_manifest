@@ -14,6 +14,10 @@
     <remove-project name="platform/external/selinux" />
     <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
 
+    <!-- maintainer name -->
+    <remove-project name="packages_apps_Settings" />
+    <project name="packages_apps_Settings" path="packages/apps/Settings" remote="myself" revision="eleven" />
+    
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11" />
     <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="officialputuid" revision="11" />
