@@ -10,10 +10,6 @@
     <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="officialputuid" revision="11" clone-depth="1" />
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
 
-    <!-- Patch -->
-    <remove-project name="external_selinux" />
-    <project path="external/selinux" name="platform_external_selinux" remote="myself" revision="11" />
-
     <!-- maintainer name -->
     <remove-project name="packages_apps_Settings" />
     <project name="packages_apps_Settings" path="packages/apps/Settings" remote="myself" revision="eleven" />
