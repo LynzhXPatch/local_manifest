@@ -3,7 +3,7 @@
     <!-- Github remote -->
     <remote name="myself" fetch="https://github.com/LynzhX" />
     <remote name="officialputuid" fetch="https://github.com/officialputuid" />
-    <remote name="geng" fetch="
+    <remote name="geng" fetch="https://github.com/GengKapak" />
 
     <!-- Sync trees -->
     <project path="device/realme/mt6785-common" name="android_device_realme_mt6785-common" remote="myself" revision="11" />
