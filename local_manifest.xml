@@ -12,8 +12,8 @@
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
 
     <!-- Gengkapak Clang -->
-    <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="geng" revision="14" clone-depth="1" />
-" 
+    <project path="prebuilts/clang/host/linux-x86/clang-gengkapak" name="GengKapak-clang" remote="geng" revision="13" clone-depth="1" />
+
     <!-- maintainer name -->
     <remove-project name="packages_apps_Settings" />
     <project name="packages_apps_Settings" path="packages/apps/Settings" remote="myself" revision="eleven" />
