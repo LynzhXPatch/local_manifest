@@ -3,12 +3,16 @@
     <!-- Github remote -->
     <remote name="myself" fetch="https://github.com/LynzhX" />
     <remote name="officialputuid" fetch="https://github.com/officialputuid" />
+    <remote name="gk" fetch="https://github.com/GengKapak" />
 
     <!-- Sync trees -->
     <project path="device/realme/mt6785-common" name="android_device_realme_mt6785-common" remote="myself" revision="11" />
     <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="myself" revision="blast" />
     <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="officialputuid" revision="11" clone-depth="1" />
     <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
+
+    <!-- Gengkapak Clang -->
+    <project path="prebuilts/clang/host/linux-x86/clang-GengKapak" name="GengKapak-clang" remote="gk" revision="14" />
 
     <!-- maintainer name -->
     <remove-project name="packages_apps_Settings" />
