@@ -14,6 +14,10 @@
     <remove-project name="packages_apps_Settings" />
     <project name="packages_apps_Settings" path="packages/apps/Settings" remote="myself" revision="eleven" />
     
+    <!-- Framework native -->
+    <remove-project name="frameworks_native" />
+     <project path="frameworks/native" name="
+
    <!-- Ims -->
       <remove-project name="frameworks_opt_net_ims" />
       <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="myself" revision="eleven" />
