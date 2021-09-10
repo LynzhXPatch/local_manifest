@@ -16,7 +16,7 @@
     
     <!-- Framework native -->
     <remove-project name="frameworks_native" />
-     <project path="frameworks/native" name="fw_native" remote="myself" revision="eleven" />
+     <project path="frameworks/native" name="fw_native" remote="myself" revision="11" />
 
    <!-- Ims -->
       <remove-project name="frameworks_opt_net_ims" />
