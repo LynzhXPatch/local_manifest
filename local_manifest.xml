@@ -9,7 +9,7 @@
     <project path="device/realme/mt6785-common" name="android_device_realme_mt6785-common" remote="myself" revision="2a" />
     <project path="device/realme/RMX2001" name="android_device_realme_RMX2001" remote="myself" revision="legion" />
     <project path="kernel/realme/RMX2001" name="android_kernel_realme_RMX2001" remote="r6id" revision="11" clone-depth="1" />
-    <project path="vendor/realme" name="proprietary_vendor_realme" remote="officialputuid" revision="11" />
+    <project path="vendor/realme" name="proprietary_vendor_realme" remote="r6id" revision="11" />
     
     <!-- Clang -->
     <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" remote="officialputuid" revision="master" clone-depth="1" />
