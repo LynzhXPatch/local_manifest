@@ -15,7 +15,7 @@
     <project path="frameworks/native" name="fw_native" remote="myself" revision="11" />
 
     <!--GengKapak-->
-    <remote path="prebuilts/clang/host/linux-x86/clang-GengKapak" name="GengKapak-clang" remote="myself" revision="14" />
+    <project path="prebuilts/clang/host/linux-x86/clang-GengKapak" name="GengKapak-clang" remote="myself" revision="14" />
 
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11" />
