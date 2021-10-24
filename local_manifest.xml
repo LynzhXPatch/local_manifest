@@ -17,6 +17,6 @@
 
     <!-- Apps -->
     <project path="packages/apps/RealmeParts" name="android_packages_apps_RealmeParts" remote="myself" revision="11.0" />
-    <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="officialputuid" revision="RVC" />
+    <project path="packages/apps/RealmeDirac" name="android_packages_apps_RealmeDirac" remote="officialputuid" revision="12.0" />
 
 </manifest>
